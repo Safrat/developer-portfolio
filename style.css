@@ -9,6 +9,7 @@ body {
 
 section {
     display: flex;
+    padding-bottom: 200px;
 }
 
 .half-width {
@@ -18,7 +19,7 @@ section {
 
 .half-width img {
     width: 60%;
-    padding-left: 15%;
+    padding-left: 10%;
 }
 
 .link-button {
@@ -31,7 +32,25 @@ section {
     border-radius: 5px;
 }
 
+.she {
+    width: 60%;
+    height: 50%;
+}
+
+#tumi {
+    padding-right: 150px;
+
+}
+
+
+
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
