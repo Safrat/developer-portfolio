@@ -7,7 +7,7 @@ body {
     color: chocolate;
 }
 
-section {
+.flexible-container {
     display: flex;
     padding-bottom: 200px;
 }
@@ -42,11 +42,43 @@ section {
 
 }
 
+.experience-area {
+    box-shadow: 10px 10px 30px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 7px solid salmon;
+}
+
+.experience-item {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#hi {
+    border-left: 7px solid blue;
+}
+
 
 
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+footer p {
+    text-align: center;
 }
 
 .dream-big {
