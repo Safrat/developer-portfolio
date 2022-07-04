@@ -1,0 +1,37 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+
+.ami {
+    color: chocolate;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img {
+    width: 60%;
+    padding-left: 15%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(red, salmon);
+    font-weight: 700;
+    color: white;
+
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
